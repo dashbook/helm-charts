@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/dashbook/helm-charts/releases/download/keycloak-operator-0.1.0/keycloak-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-23T06:31:55.606990893Z"
+  postgrest:
+  - apiVersion: v2
+    appVersion: 11.0.1
+    created: "2023-08-26T11:58:15.231204845Z"
+    description: A Helm chart for Kubernetes
+    digest: 1d373bb5ca2201c51dca87261cc3df9a3e62ac7e7f99baa0caa6a69068f46483
+    name: postgrest
+    type: application
+    urls:
+    - https://github.com/dashbook/helm-charts/releases/download/postgrest-0.1.0/postgrest-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-26T11:58:15.231209945Z"
