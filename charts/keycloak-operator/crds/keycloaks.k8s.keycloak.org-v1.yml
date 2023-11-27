@@ -19,9 +19,6 @@ spec:
         properties:
           spec:
             properties:
-              instances:
-                description: Number of Keycloak instances in HA mode. Default is 1.
-                type: integer
               transaction:
                 description: In this section you can find all properties related to
                   the settings of transaction behavior.
@@ -2856,6 +2853,9 @@ spec:
               image:
                 description: Custom Keycloak image to be used.
                 type: string
+              instances:
+                description: Number of Keycloak instances in HA mode. Default is 1.
+                type: integer
               imagePullSecrets:
                 description: Secret(s) that might be used when pulling an image from
                   a private container image registry or repository.
@@ -2969,10 +2969,7 @@ spec:
                 items:
                   properties:
                     status:
-                      properties:
-                        value:
-                          type: object
-                      x-kubernetes-preserve-unknown-fields: true
+                      type: string
                     lastTransitionTime:
                       type: string
                     observedGeneration:
