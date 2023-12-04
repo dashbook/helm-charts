@@ -23,6 +23,16 @@ entries:
     version: 0.1.0
   postgrest:
   - apiVersion: v2
+    appVersion: 12.0.0
+    created: "2023-12-04T16:47:50.517382383Z"
+    description: A Helm chart for Kubernetes
+    digest: dae5439204fe76c0d27eee1cfa293f36124fe8945c0924c3f15a3cd9eb598dfd
+    name: postgrest
+    type: application
+    urls:
+    - https://github.com/dashbook/helm-charts/releases/download/postgrest-0.1.2/postgrest-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 11.2.1
     created: "2023-11-27T19:05:44.407949877Z"
     description: A Helm chart for Kubernetes
@@ -42,4 +52,4 @@ entries:
     urls:
     - https://github.com/dashbook/helm-charts/releases/download/postgrest-0.1.0/postgrest-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-27T19:05:44.407961859Z"
+generated: "2023-12-04T16:47:50.517402009Z"
