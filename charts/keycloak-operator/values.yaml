@@ -2,11 +2,18 @@ kubernetesClusterDomain: cluster.local
 operator:
   keycloakOperator:
     env:
-      relatedImageKeycloak: quay.io/keycloak/keycloak:23.0.0
+      relatedImageKeycloak: quay.io/keycloak/keycloak:26.0.0
     image:
       repository: quay.io/keycloak/keycloak-operator
-      tag: 23.0.0
+      tag: 26.0.0
     imagePullPolicy: Always
+    resources:
+      limits:
+        cpu: 700m
+        memory: 450Mi
+      requests:
+        cpu: 300m
+        memory: 450Mi
   ports:
   - name: http
     port: 80
@@ -15,5 +22,7 @@ operator:
   replicas: 1
   serviceAccount:
     annotations:
-      app.quarkus.io/build-timestamp: 2023-11-23 - 15:10:01 +0000
+      app.quarkus.io/build-timestamp: 2024-10-04 - 07:10:18 +0000
+      app.quarkus.io/quarkus-version: 3.15.1
+      app.quarkus.io/vcs-uri: https://github.com/keycloak/keycloak.git
   type: ClusterIP
