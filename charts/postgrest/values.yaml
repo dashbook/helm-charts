@@ -14,7 +14,7 @@ image:
   repository: "postgrest/postgrest"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v12.0.0"
+  tag: "v12.2.3"
 
 imagePullSecrets: []
 nameOverride: ""
