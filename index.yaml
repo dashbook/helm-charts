@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   keycloak-operator:
   - apiVersion: v2
+    appVersion: 26.0.0
+    created: "2024-10-10T16:25:20.454430361Z"
+    description: A Helm chart for Kubernetes
+    digest: fcff3a60cc91512f0538087edcb61f451a99686a99465e77c896da8c4d130139
+    name: keycloak-operator
+    type: application
+    urls:
+    - https://github.com/dashbook/helm-charts/releases/download/keycloak-operator-0.1.2/keycloak-operator-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 23.0.0
     created: "2023-11-27T19:03:30.15384543Z"
     description: A Helm chart for Kubernetes
@@ -52,4 +62,4 @@ entries:
     urls:
     - https://github.com/dashbook/helm-charts/releases/download/postgrest-0.1.0/postgrest-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-04T16:47:50.517402009Z"
+generated: "2024-10-10T16:25:20.454469515Z"
